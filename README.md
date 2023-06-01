@@ -13,9 +13,8 @@ GET /posts: Retrieves a list of posts from the posts table in the database. It r
 POST /posts: Adds a new post to the posts table. The request body should include titulo, url, and descripcion properties. The route executes an SQL INSERT query and returns a JSON response with the added post.
 
 GET /posts/:id: Retrieves a specific post by its ID from the posts table. The route expects the ID as a route parameter. It executes an SQL SELECT query with the specified ID and returns the JSON response containing the found post.
+
 ---
-
-
 
 ---
 
